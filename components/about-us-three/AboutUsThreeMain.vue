@@ -1,41 +1,41 @@
 <template>
-    <div>
-        <HeaderOne />
+  <div>
+    <HeaderOne />
 
-        <BreadCrumbThree title='About Us 3' />
+    <BreadCrumbThree title="About Us 3" />
 
-        <AboutThree />
+    <AboutThree />
 
-        <FunFact />
+    <FunFact />
 
-        <WhyChoose />
+    <WhyChoose />
 
-        <ContactInfo />
+    <ContactInfo />
 
-        <Instructor />
+    <Instructor />
 
-        <Testimonial />
+    <!-- <Testimonial /> -->
 
-        <FooterOne />
+    <FooterOne />
 
-        <ScrollToTop />
-    </div>
+    <ScrollToTop />
+  </div>
 </template>
 
 <script>
-import FooterOne from '../footer/FooterOne.vue';
-import BreadCrumbThree from '../common/BreadCrumbThree.vue';
-import HeaderOne from '../header/HeaderOne.vue';
-import ContactInfo from './ContactInfo.vue';
-import WhyChoose from './WhyChoose.vue';
-import FunFact from './FunFact.vue';
-import Instructor from './Instructor.vue';
-import AboutThree from './AboutThree.vue';
-import Testimonial from './Testimonial.vue';
-import ScrollToTop from '../footer/ScrollToTop.vue';
+import FooterOne from "../footer/FooterOne.vue";
+import BreadCrumbThree from "../common/BreadCrumbThree.vue";
+import HeaderOne from "../header/HeaderOne.vue";
+import ContactInfo from "./ContactInfo.vue";
+import WhyChoose from "./WhyChoose.vue";
+import FunFact from "./FunFact.vue";
+import Instructor from "./Instructor.vue";
+import AboutThree from "./AboutThree.vue";
+// import Testimonial from "./Testimonial.vue";
+import ScrollToTop from "../footer/ScrollToTop.vue";
 
 export default {
-    components: {
+  components: {
     HeaderOne,
     BreadCrumbThree,
     FooterOne,
@@ -43,19 +43,19 @@ export default {
     FunFact,
     WhyChoose,
     Instructor,
-    Testimonial,
+    // Testimonial,
     AboutThree,
-    ScrollToTop
-},
-    head() {
-        return {
-            title: 'About Us 3'
-        }
-    }
-}
+    ScrollToTop,
+  },
+  head() {
+    return {
+      title: "About Us 3",
+    };
+  },
+};
 </script>
 <style>
 .video-area-1 .video-play-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 </style>
